@@ -1,0 +1,27 @@
+/*
+Styling for Contact.js component
+*/
+.list-group-item:hover {
+  background-color: #f1f1f1;
+}
+
+.far,
+.fa-copy {
+  float: right;
+}
+.fa-copy:hover {
+  color: #4389dced;
+  cursor: pointer;
+}
+
+.copyText {
+  float: right;
+  font-family: monospace;
+}
+
+/*
+Styling for Contacts.js component
+*/
+.card-body:hover {
+  background-color: #f1f1f1;
+}
