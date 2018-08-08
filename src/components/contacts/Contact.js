@@ -95,7 +95,7 @@ class Contact extends Component {
                   <li className="list-group-item">
                     <span className="text-info"> Name</span> : {name}
                     <span className="copyText">
-                      {'Copy name to clipboard'}
+                      {'Copy name | '}
                       <i
                         className="far fa-copy ml-2"
                         onClick={this.copyToClipboard(name)}
@@ -105,7 +105,7 @@ class Contact extends Component {
                   <li className="list-group-item">
                     <span className="text-info">Username</span> : {username}
                     <span className="copyText">
-                      {'Copy username to clipboard'}
+                      {'Copy username | '}
                       <i
                         className="far fa-copy ml-2"
                         onClick={this.copyToClipboard(username)}
@@ -115,7 +115,7 @@ class Contact extends Component {
                   <li className="list-group-item">
                     <span className="text-info">Email</span> : {email}
                     <span className="copyText">
-                      {'Copy email to clipboard'}
+                      {'Copy email | '}
                       <i
                         className="far fa-copy ml-2"
                         onClick={this.copyToClipboard(email)}
@@ -125,7 +125,7 @@ class Contact extends Component {
                   <li className="list-group-item">
                     <span className="text-info">Phone</span> : {phone}
                     <span className="copyText">
-                      {'Copy phone to clipboard'}
+                      {'Copy phone | '}
                       <i
                         className="far fa-copy ml-2"
                         onClick={this.copyToClipboard(phone)}

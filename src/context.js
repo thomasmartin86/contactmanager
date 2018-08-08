@@ -6,19 +6,19 @@ const Context = React.createContext();
 //reducer
 const reducer = (state, action) => {
   switch (action.type) {
-    case 'DELETE_CONTACT':
+    case 'DELETE_CONTACT': //delete
       return {
         ...state,
         contacts: state.contacts.filter(
           contact => contact.id !== action.payload
         )
       };
-    case 'ADD_CONTACT':
+    case 'ADD_CONTACT': //add
       return {
         ...state,
         contacts: [action.payload, ...state.contacts]
       };
-    case 'UPDATE_CONTACT':
+    case 'UPDATE_CONTACT': //update
       return {
         ...state,
         contacts: state.contacts.map(
